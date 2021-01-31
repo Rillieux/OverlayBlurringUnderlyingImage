@@ -11,6 +11,7 @@
 		F482B3C825C6B1FA007FAF11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482B3C725C6B1FA007FAF11 /* ContentView.swift */; };
 		F482B3CA25C6B1FB007FAF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F482B3C925C6B1FB007FAF11 /* Assets.xcassets */; };
 		F482B3CD25C6B1FB007FAF11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F482B3CC25C6B1FB007FAF11 /* Preview Assets.xcassets */; };
+		F482B3DA25C6B398007FAF11 /* IceCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = F482B3D925C6B398007FAF11 /* IceCube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F482B3C925C6B1FB007FAF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F482B3CC25C6B1FB007FAF11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F482B3CE25C6B1FB007FAF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F482B3D925C6B398007FAF11 /* IceCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F482B3C525C6B1FA007FAF11 /* BlurOverlayApp.swift */,
 				F482B3C725C6B1FA007FAF11 /* ContentView.swift */,
+				F482B3D925C6B398007FAF11 /* IceCube.swift */,
 				F482B3C925C6B1FB007FAF11 /* Assets.xcassets */,
 				F482B3CE25C6B1FB007FAF11 /* Info.plist */,
 				F482B3CB25C6B1FB007FAF11 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F482B3DA25C6B398007FAF11 /* IceCube.swift in Sources */,
 				F482B3C825C6B1FA007FAF11 /* ContentView.swift in Sources */,
 				F482B3C625C6B1FA007FAF11 /* BlurOverlayApp.swift in Sources */,
 			);

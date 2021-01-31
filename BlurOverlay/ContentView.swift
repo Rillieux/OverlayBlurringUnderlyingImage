@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var image: UIImage = UIImage(named: "lyon")!
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            Image(uiImage: image)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+            IceCube(image: image)
+        }
+        .ignoresSafeArea(.all)
     }
 }
 
